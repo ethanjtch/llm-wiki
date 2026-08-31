@@ -1,0 +1,17 @@
+{
+  "port": 3080,
+  "startupCommand": "",
+  "startupCwd": "",
+  "autoStart": true,
+  "detached": true,
+  "readyTimeoutSec": 300,
+  "zoom": 0.6,
+  "installDir": "/usr/local/bin/dsh",
+  "installUrl": "https://github.com/deepseek-ai/deepseek-harness.git",
+  "updateMirrorUrl": "",
+  "language": "auto",
+  "autoCheckUpdates": true,
+  "selectionButton": true,
+  "openPanelOnSend": true,
+  "addSourceTag": true
+}
