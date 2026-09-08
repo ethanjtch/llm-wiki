@@ -1,6 +1,5 @@
 [
-  "global-proxy",
   "obsidian42-brat",
-  "obsidian-git",
-  "fast-note-sync"
+  "fast-note-sync",
+  "obsidian-git"
 ]
