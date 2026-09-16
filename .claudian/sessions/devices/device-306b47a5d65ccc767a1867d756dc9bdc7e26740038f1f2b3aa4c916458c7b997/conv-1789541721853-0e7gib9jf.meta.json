@@ -1,0 +1,24 @@
+{
+  "id": "conv-1789541721853-0e7gib9jf",
+  "providerId": "pi",
+  "title": "新增文章摄入 wiki：Agents 重构赫耳墨斯",
+  "titleGenerationStatus": "success",
+  "createdAt": 1789541721862,
+  "lastActivityAt": 1789542220999,
+  "sessionId": "01a0a8ff-a810-727c-af85-21257781f487",
+  "selectedModel": "pi:opencode-go/deepseek-v4-flash",
+  "providerState": {
+    "sessionFile": "/Users/ethanchen/.pi/agent/sessions/--Users-ethanchen-Library-Mobile Documents-iCloud~md~obsidian-Documents-LLM Wiki--/2026-09-16T06-55-22-128Z_01a0a8ff-a810-727c-af85-21257781f487.jsonl",
+    "sessionId": "01a0a8ff-a810-727c-af85-21257781f487"
+  },
+  "usage": {
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextTokens": 77155,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "inputTokens": 77155,
+    "model": "pi:opencode-go/deepseek-v4-flash",
+    "percentage": 8
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1789541721853-0e7gib9jf",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789541721902-cyjh302",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1789541721835-yj90mm5",
+      "timestamp": 1789541721835,
+      "rawDisplayText": "[[raw/Agents 重构赫耳墨斯，包含1,393个代理.md|Agents 重构赫耳墨斯，包含1,393个代理]] \n新增的文章增加到wiki里",
+      "canonicalText": "[[raw/Agents 重构赫耳墨斯，包含1,393个代理.md|Agents 重构赫耳墨斯，包含1,393个代理]] \n新增的文章增加到wiki里",
+      "images": [],
+      "contentDigest": "a7846dc87bd9f3bd4ab95172f3e9375e8f37f2cb17ddd276201b3875116e0706",
+      "providerAssistantMessageId": "f116c645",
+      "providerUserMessageId": "f56f5304"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789542008518-2awh5ye",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1789542008471-u905nfz",
+      "timestamp": 1789542008471,
+      "rawDisplayText": "为什么你没有把这篇文章添加到 sources里？我看之前的文章在处理的时候都会存一份到sources里。",
+      "canonicalText": "为什么你没有把这篇文章添加到 sources里？我看之前的文章在处理的时候都会存一份到sources里。",
+      "images": [],
+      "contentDigest": "6946e725b5bac2d0e2648779acbe9b3c0b1e6d56bcf4c2723fa4ab29fb2fac1d",
+      "providerAssistantMessageId": "15122a1c",
+      "providerUserMessageId": "051909ee"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789542221004-5arp8qd",
+      "userTurnOrdinal": 3,
+      "state": "accepted",
+      "localMessageId": "msg-1789542220999-smsntb4",
+      "timestamp": 1789542220999,
+      "rawDisplayText": "OK 你现在好慢啊",
+      "canonicalText": "OK 你现在好慢啊",
+      "images": [],
+      "contentDigest": "0f3effc361e42383193b3384cc4760f5cacedc0c20b924227c0aa2f9325ecf6b",
+      "providerUserMessageId": "e28c0ae9",
+      "providerAssistantMessageId": "736a7a38"
+    }
+  ]
+}

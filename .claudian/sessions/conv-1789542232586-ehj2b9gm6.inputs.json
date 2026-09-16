@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1789542232586-ehj2b9gm6",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789542232623-x6ffpc6",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1789542232581-8m865by",
+      "timestamp": 1789542232581,
+      "rawDisplayText": "帮我讲解一下吧",
+      "canonicalText": "帮我讲解一下吧",
+      "context": {
+        "linkedContent": {
+          "path": "raw/Agents 重构赫耳墨斯，包含1,393个代理.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "63f9fbbfdcae1d33823ded876016e789548d83b35a0da3ecf8849f68056a5ee0",
+      "providerAssistantMessageId": "1f3c5a6a"
+    }
+  ]
+}

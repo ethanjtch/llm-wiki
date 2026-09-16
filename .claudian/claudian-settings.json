@@ -1,0 +1,1015 @@
+{
+  "userName": "Ethan",
+  "permissionMode": "yolo",
+  "model": "pi:opencode-go/deepseek-v4-flash",
+  "thinkingBudget": "off",
+  "effortLevel": "high",
+  "serviceTier": "default",
+  "enableAutoTitleGeneration": true,
+  "titleGenerationLocale": "",
+  "titleGenerationModel": "pi:opencode-go/deepseek-v4-flash",
+  "excludedTags": [],
+  "mediaFolder": "",
+  "systemPrompt": "",
+  "sharedEnvironmentVariables": "",
+  "envSnippets": [],
+  "customContextLimits": {},
+  "customModelAliases": {},
+  "keyboardNavigation": {
+    "scrollUpKey": "w",
+    "scrollDownKey": "s",
+    "focusInputKey": "i"
+  },
+  "requireCommandOrControlEnterToSend": false,
+  "locale": "zh-CN",
+  "providerConfigs": {
+    "claude": {
+      "enabled": false,
+      "safeMode": "acceptEdits",
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "loadUserSettings": true,
+      "enableChrome": false,
+      "customModels": "",
+      "defaultModel": "opus",
+      "lastModel": "haiku",
+      "modelEnvironmentType": "haiku",
+      "titleModelEnvironmentType": "",
+      "environmentVariables": "",
+      "environmentHash": "runtime-input:v1:e3a3492dd19704352b6e2501d1a2b99adce7d5f569db6949d679b1043fb89aa1"
+    },
+    "codex": {
+      "enabled": false,
+      "safeMode": "workspace-write",
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "customModels": "",
+      "discoveredModels": [
+        {
+          "model": "gpt-6-astra",
+          "displayName": "GPT-6-Astra",
+          "description": "Our most capable model for complex, demanding work.",
+          "supportedReasoningEfforts": [
+            {
+              "value": "low",
+              "description": "Fast responses with lighter reasoning"
+            },
+            {
+              "value": "medium",
+              "description": "Balances speed and reasoning depth for everyday tasks"
+            },
+            {
+              "value": "high",
+              "description": "Greater reasoning depth for complex problems"
+            },
+            {
+              "value": "xhigh",
+              "description": "Extra high reasoning depth for complex problems"
+            },
+            {
+              "value": "max",
+              "description": "Maximum reasoning depth for the hardest problems"
+            },
+            {
+              "value": "ultra",
+              "description": "Maximum reasoning with automatic task delegation"
+            }
+          ],
+          "defaultReasoningEffort": "low",
+          "serviceTiers": [
+            {
+              "id": "priority",
+              "name": "Fast",
+              "description": "2x speed, increased usage"
+            }
+          ],
+          "defaultServiceTier": null,
+          "inputModalities": [
+            "text",
+            "image"
+          ],
+          "isDefault": true
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "displayName": "GPT-5.6-Sol",
+          "description": "Latest frontier agentic coding model.",
+          "supportedReasoningEfforts": [
+            {
+              "value": "low",
+              "description": "Fast responses with lighter reasoning"
+            },
+            {
+              "value": "medium",
+              "description": "Balances speed and reasoning depth for everyday tasks"
+            },
+            {
+              "value": "high",
+              "description": "Greater reasoning depth for complex problems"
+            },
+            {
+              "value": "xhigh",
+              "description": "Extra high reasoning depth for complex problems"
+            },
+            {
+              "value": "max",
+              "description": "Maximum reasoning depth for the hardest problems"
+            },
+            {
+              "value": "ultra",
+              "description": "Maximum reasoning with automatic task delegation"
+            }
+          ],
+          "defaultReasoningEffort": "low",
+          "serviceTiers": [
+            {
+              "id": "priority",
+              "name": "Fast",
+              "description": "1.5x speed, increased usage"
+            },
+            {
+              "id": "ultrafast",
+              "name": "Ultrafast",
+              "description": "The fastest available responses for latency-sensitive work."
+            }
+          ],
+          "defaultServiceTier": null,
+          "inputModalities": [
+            "text",
+            "image"
+          ],
+          "isDefault": false
+        },
+        {
+          "model": "gpt-5.6-terra",
+          "displayName": "GPT-5.6-Terra",
+          "description": "Balanced agentic coding model for everyday work.",
+          "supportedReasoningEfforts": [
+            {
+              "value": "low",
+              "description": "Fast responses with lighter reasoning"
+            },
+            {
+              "value": "medium",
+              "description": "Balances speed and reasoning depth for everyday tasks"
+            },
+            {
+              "value": "high",
+              "description": "Greater reasoning depth for complex problems"
+            },
+            {
+              "value": "xhigh",
+              "description": "Extra high reasoning depth for complex problems"
+            },
+            {
+              "value": "max",
+              "description": "Maximum reasoning depth for the hardest problems"
+            },
+            {
+              "value": "ultra",
+              "description": "Maximum reasoning with automatic task delegation"
+            }
+          ],
+          "defaultReasoningEffort": "medium",
+          "serviceTiers": [
+            {
+              "id": "priority",
+              "name": "Fast",
+              "description": "1.5x speed, increased usage"
+            }
+          ],
+          "defaultServiceTier": null,
+          "inputModalities": [
+            "text",
+            "image"
+          ],
+          "isDefault": false
+        },
+        {
+          "model": "gpt-5.6-luna",
+          "displayName": "GPT-5.6-Luna",
+          "description": "Fast and affordable agentic coding model.",
+          "supportedReasoningEfforts": [
+            {
+              "value": "low",
+              "description": "Fast responses with lighter reasoning"
+            },
+            {
+              "value": "medium",
+              "description": "Balances speed and reasoning depth for everyday tasks"
+            },
+            {
+              "value": "high",
+              "description": "Greater reasoning depth for complex problems"
+            },
+            {
+              "value": "xhigh",
+              "description": "Extra high reasoning depth for complex problems"
+            },
+            {
+              "value": "max",
+              "description": "Maximum reasoning depth for the hardest problems"
+            }
+          ],
+          "defaultReasoningEffort": "medium",
+          "serviceTiers": [
+            {
+              "id": "priority",
+              "name": "Fast",
+              "description": "1.5x speed, increased usage"
+            }
+          ],
+          "defaultServiceTier": null,
+          "inputModalities": [
+            "text",
+            "image"
+          ],
+          "isDefault": false
+        },
+        {
+          "model": "gpt-5.5",
+          "displayName": "GPT-5.5",
+          "description": "Frontier model for complex coding, research, and real-world work.",
+          "supportedReasoningEfforts": [
+            {
+              "value": "low",
+              "description": "Fast responses with lighter reasoning"
+            },
+            {
+              "value": "medium",
+              "description": "Balances speed and reasoning depth for everyday tasks"
+            },
+            {
+              "value": "high",
+              "description": "Greater reasoning depth for complex problems"
+            },
+            {
+              "value": "xhigh",
+              "description": "Extra high reasoning depth for complex problems"
+            }
+          ],
+          "defaultReasoningEffort": "medium",
+          "serviceTiers": [
+            {
+              "id": "priority",
+              "name": "Fast",
+              "description": "1.5x speed, increased usage"
+            }
+          ],
+          "defaultServiceTier": null,
+          "inputModalities": [
+            "text",
+            "image"
+          ],
+          "isDefault": false
+        },
+        {
+          "model": "gpt-5.2",
+          "displayName": "GPT-5.2",
+          "description": "Optimized for professional work and long-running agents.",
+          "supportedReasoningEfforts": [
+            {
+              "value": "low",
+              "description": "Balances speed with some reasoning; useful for straightforward queries and short explanations"
+            },
+            {
+              "value": "medium",
+              "description": "Provides a solid balance of reasoning depth and latency for general-purpose tasks"
+            },
+            {
+              "value": "high",
+              "description": "Maximizes reasoning depth for complex or ambiguous problems"
+            },
+            {
+              "value": "xhigh",
+              "description": "Extra high reasoning for complex problems"
+            }
+          ],
+          "defaultReasoningEffort": "medium",
+          "serviceTiers": [],
+          "defaultServiceTier": null,
+          "inputModalities": [
+            "text",
+            "image"
+          ],
+          "isDefault": false
+        }
+      ],
+      "modelAliases": {},
+      "visibleModels": null,
+      "enableUltraEffort": false,
+      "reasoningSummary": "detailed",
+      "environmentVariables": "",
+      "environmentHash": "runtime-input:v1:ed54f4f5238abeec7f65a5da1e468c9a639e157a7d1c7753b53f54ba1196e8a0",
+      "catalogTimestamp": 1789541422038,
+      "catalogFingerprint": "2:05bb96d9b1f861daf2ed4a7f2c7bc248285213626a97008af7213c50d66a4709",
+      "installationMethodsByHost": {},
+      "wslDistroOverridesByHost": {}
+    },
+    "grok": {
+      "catalogsByHost": {},
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "preferredReasoningByModel": {},
+      "visibleModels": null
+    },
+    "opencode": {
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "OPENCODE_ENABLE_EXA=1",
+      "modelAliases": {},
+      "preferredThinkingByModel": {},
+      "selectedMode": "",
+      "thinkingOptionsByModel": {},
+      "visibleModels": []
+    },
+    "pi": {
+      "cliPath": "",
+      "cliPathsByHost": {
+        "device-306b47a5d65ccc767a1867d756dc9bdc7e26740038f1f2b3aa4c916458c7b997": "/Users/ethanchen/.local/share/mise/installs/node/24/bin/pi"
+      },
+      "discoveredModels": [
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:deepseek/deepseek-v4-flash",
+          "id": "deepseek-v4-flash",
+          "input": [
+            "text"
+          ],
+          "label": "DeepSeek V4 Flash",
+          "maxTokens": 384000,
+          "provider": "deepseek",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "low",
+            "high",
+            "max"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:deepseek/deepseek-v4-flash-vision-exp",
+          "id": "deepseek-v4-flash-vision-exp",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "DeepSeek V4 Flash Vision Exp",
+          "maxTokens": 384000,
+          "provider": "deepseek",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "low",
+            "high",
+            "max"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:deepseek/deepseek-v4-pro",
+          "id": "deepseek-v4-pro",
+          "input": [
+            "text"
+          ],
+          "label": "DeepSeek V4 Pro",
+          "maxTokens": 384000,
+          "provider": "deepseek",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "high",
+            "max"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:deepseek/deepseek-flash",
+          "id": "deepseek-flash",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "DeepSeek V4.1 Flash",
+          "maxTokens": 384000,
+          "provider": "deepseek",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "low",
+            "high",
+            "max"
+          ]
+        },
+        {
+          "api": "anthropic-messages",
+          "contextWindow": 1000000,
+          "encodedId": "pi:opencode-go/minimax-m3",
+          "id": "minimax-m3",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "MiniMax-M3",
+          "maxTokens": 131072,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "anthropic-messages",
+          "contextWindow": 1000000,
+          "encodedId": "pi:opencode-go/qwen3.8-flash",
+          "id": "qwen3.8-flash",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Qwen3.8 Flash",
+          "maxTokens": 131072,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:opencode-go/deepseek-v4-flash",
+          "id": "deepseek-v4-flash",
+          "input": [
+            "text"
+          ],
+          "label": "DeepSeek V4 Flash",
+          "maxTokens": 384000,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "low",
+            "high",
+            "max"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:opencode-go/deepseek-v4-flash-vision-exp",
+          "id": "deepseek-v4-flash-vision-exp",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "DeepSeek V4 Flash Vision Exp",
+          "maxTokens": 384000,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "low",
+            "high",
+            "max"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:opencode-go/deepseek-v4-pro",
+          "id": "deepseek-v4-pro",
+          "input": [
+            "text"
+          ],
+          "label": "DeepSeek V4 Pro (New)",
+          "maxTokens": 384000,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "high",
+            "max"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 202752,
+          "encodedId": "pi:opencode-go/glm-5.1",
+          "id": "glm-5.1",
+          "input": [
+            "text"
+          ],
+          "label": "GLM-5.1",
+          "maxTokens": 32768,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:opencode-go/glm-5.2",
+          "id": "glm-5.2",
+          "input": [
+            "text"
+          ],
+          "label": "GLM-5.2",
+          "maxTokens": 131072,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "high",
+            "max"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:opencode-go/glm-5.3",
+          "id": "glm-5.3",
+          "input": [
+            "text"
+          ],
+          "label": "GLM-5.3",
+          "maxTokens": 131072,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "low",
+            "high",
+            "max"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:opencode-go/glm-5.3-flash",
+          "id": "glm-5.3-flash",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "GLM-5.3-Flash",
+          "maxTokens": 131072,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "low",
+            "high",
+            "max"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 256000,
+          "encodedId": "pi:opencode-go/hy3",
+          "id": "hy3",
+          "input": [
+            "text"
+          ],
+          "label": "Hy3",
+          "maxTokens": 128000,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "low",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1024000,
+          "encodedId": "pi:opencode-go/hy4-preview",
+          "id": "hy4-preview",
+          "input": [
+            "text"
+          ],
+          "label": "Hy4 preview",
+          "maxTokens": 64000,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 262144,
+          "encodedId": "pi:opencode-go/kimi-k2.6",
+          "id": "kimi-k2.6",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Kimi K2.6",
+          "maxTokens": 65536,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 262144,
+          "encodedId": "pi:opencode-go/kimi-k2.7-code",
+          "id": "kimi-k2.7-code",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Kimi K2.7 Code",
+          "maxTokens": 262144,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1048576,
+          "encodedId": "pi:opencode-go/kimi-k3",
+          "id": "kimi-k3",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Kimi K3",
+          "maxTokens": 131072,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "max"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:opencode-go/longcat-2.0",
+          "id": "longcat-2.0",
+          "input": [
+            "text"
+          ],
+          "label": "LongCat-2.0",
+          "maxTokens": 131072,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:opencode-go/mimo-v2.5",
+          "id": "mimo-v2.5",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "MiMo V2.5",
+          "maxTokens": 128000,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1048576,
+          "encodedId": "pi:opencode-go/mimo-v2.5-pro",
+          "id": "mimo-v2.5-pro",
+          "input": [
+            "text"
+          ],
+          "label": "MiMo V2.5 Pro",
+          "maxTokens": 128000,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 204800,
+          "encodedId": "pi:opencode-go/minimax-m2.7",
+          "id": "minimax-m2.7",
+          "input": [
+            "text"
+          ],
+          "label": "MiniMax-M2.7",
+          "maxTokens": 131072,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 500000,
+          "encodedId": "pi:opencode-go/omen-alpha",
+          "id": "omen-alpha",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Omen Alpha",
+          "maxTokens": 128000,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "low",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:opencode-go/qwen3.6-plus",
+          "id": "qwen3.6-plus",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Qwen3.6 Plus",
+          "maxTokens": 65536,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:opencode-go/qwen3.7-max",
+          "id": "qwen3.7-max",
+          "input": [
+            "text"
+          ],
+          "label": "Qwen3.7 Max",
+          "maxTokens": 65536,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:opencode-go/qwen3.7-plus",
+          "id": "qwen3.7-plus",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Qwen3.7 Plus",
+          "maxTokens": 65536,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:opencode-go/qwen3.8-max",
+          "id": "qwen3.8-max",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Qwen3.8 Max",
+          "maxTokens": 131072,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "low",
+            "medium",
+            "xhigh"
+          ]
+        },
+        {
+          "api": "openai-responses",
+          "contextWindow": 1050000,
+          "encodedId": "pi:opencode-go/gpt-5.6-luna",
+          "id": "gpt-5.6-luna",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "GPT-5.6 Luna",
+          "maxTokens": 128000,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "low",
+            "medium",
+            "high",
+            "xhigh",
+            "max"
+          ]
+        },
+        {
+          "api": "openai-responses",
+          "contextWindow": 500000,
+          "encodedId": "pi:opencode-go/grok-4.6",
+          "id": "grok-4.6",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Grok 4.6",
+          "maxTokens": 500000,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "low",
+            "medium",
+            "high",
+            "xhigh"
+          ]
+        },
+        {
+          "api": "openai-responses",
+          "contextWindow": 1048576,
+          "encodedId": "pi:opencode-go/muse-spark-1.2-contributor",
+          "id": "muse-spark-1.2-contributor",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Muse Spark 1.2 Contributor",
+          "maxTokens": 131072,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "minimal",
+            "low",
+            "medium",
+            "high",
+            "xhigh"
+          ]
+        },
+        {
+          "api": "openai-responses",
+          "contextWindow": 1048576,
+          "encodedId": "pi:opencode-go/muse-spark-1.3-contributor",
+          "id": "muse-spark-1.3-contributor",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Muse Spark 1.3 Contributor",
+          "maxTokens": 131072,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "minimal",
+            "low",
+            "medium",
+            "high",
+            "xhigh"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:opencode-go/deepseek-v4.1-flash",
+          "id": "deepseek-v4.1-flash",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "DeepSeek V4.1 Flash",
+          "maxTokens": 384000,
+          "provider": "opencode-go",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "high",
+            "max"
+          ]
+        }
+      ],
+      "enabled": true,
+      "environmentHash": "runtime-input:v1:7c29cc498f8b5f1dab43101ab47e71d5133eb97e719dcc181fc91527cfffe93c",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "preferredThinkingByModel": {},
+      "toolMode": "all",
+      "visibleModels": [
+        "pi:opencode-go/deepseek-v4-flash",
+        "pi:opencode-go/deepseek-v4-flash-vision-exp",
+        "pi:opencode-go/deepseek-v4-pro",
+        "pi:opencode-go/deepseek-v4.1-flash"
+      ]
+    }
+  },
+  "settingsProvider": "pi",
+  "lastSelectedChatModel": null,
+  "savedProviderModel": {
+    "claude": "haiku",
+    "codex": "gpt-6-astra",
+    "pi": "pi:opencode-go/deepseek-v4-flash"
+  },
+  "savedProviderEffort": {
+    "claude": "high",
+    "codex": "high",
+    "pi": "high"
+  },
+  "savedProviderServiceTier": {
+    "codex": "default"
+  },
+  "savedProviderThinkingBudget": {},
+  "savedProviderPermissionMode": {
+    "claude": "yolo",
+    "codex": "yolo",
+    "pi": "yolo"
+  },
+  "pendingProviderSessionInvalidations": {},
+  "lastCustomModel": "",
+  "maxWarmAgentProcesses": 5,
+  "enableAutoScroll": true,
+  "showMessageTimestamps": true,
+  "deferMathRenderingDuringStreaming": true,
+  "expandFileEditsByDefault": false,
+  "chatViewPlacement": "right-sidebar",
+  "enableDualPane": false,
+  "dualPaneSide": "left",
+  "restoreTabsOnStartup": true,
+  "collabEnabled": false,
+  "collabProjectsFolder": "workspace",
+  "collabGitPath": "",
+  "sessionManagerOrganization": "list",
+  "sessionManagerSort": "last-updated",
+  "pinnedLinkedContentPaths": [],
+  "hiddenProviderCommands": {}
+}

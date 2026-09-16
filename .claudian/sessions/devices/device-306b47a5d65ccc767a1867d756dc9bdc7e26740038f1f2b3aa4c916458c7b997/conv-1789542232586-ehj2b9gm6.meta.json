@@ -1,0 +1,25 @@
+{
+  "id": "conv-1789542232586-ehj2b9gm6",
+  "providerId": "pi",
+  "title": "LLM Wiki 维护规则讲解",
+  "titleGenerationStatus": "success",
+  "createdAt": 1789542232593,
+  "lastActivityAt": 1789542259293,
+  "sessionId": "01a0a907-731e-710e-acc9-b01b4819b612",
+  "selectedModel": "pi:opencode-go/deepseek-v4-flash",
+  "providerState": {
+    "sessionFile": "/Users/ethanchen/.pi/agent/sessions/--Users-ethanchen-Library-Mobile Documents-iCloud~md~obsidian-Documents-LLM Wiki--/2026-09-16T07-03-52-863Z_01a0a907-731e-710e-acc9-b01b4819b612.jsonl",
+    "sessionId": "01a0a907-731e-710e-acc9-b01b4819b612"
+  },
+  "linkedContentPath": "raw/Agents 重构赫耳墨斯，包含1,393个代理.md",
+  "usage": {
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextTokens": 27126,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "inputTokens": 27126,
+    "model": "pi:opencode-go/deepseek-v4-flash",
+    "percentage": 3
+  }
+}
