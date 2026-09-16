@@ -1,5 +1,5 @@
 .DS_Store
 
-# Obsidian 本地状态（不跨设备同步）
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
+.obsidian/
+
+.reflect/
